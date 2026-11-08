@@ -23,16 +23,37 @@
     <main>
         <article class="privacy-content">
             <h1>Política de Privacidade</h1>
-            <p class="last-updated">Última atualização: 21 de maio de 2026</p>
+            <p class="last-updated">Última atualização: 8 de novembro de 2026</p>
 
             <p>
-                Esta Política de Privacidade descreve como o aplicativo móvel <strong>Arena Trampolim</strong> ("o aplicativo", "nós") trata as informações dos usuários ("você") ao utilizar nossos serviços. Ao instalar e usar o aplicativo, você concorda com os termos descritos neste documento.
+                Esta Política de Privacidade explica, em linguagem simples, quais informações o aplicativo móvel <strong>Arena Trampolim</strong> ("o aplicativo", "o jogo", "nós") usa, o que fica apenas no aparelho, o que é enviado para fora dele e quais escolhas você, como mãe, pai ou responsável, tem sobre isso.
             </p>
 
-            <h2>1. Coleta de dados pessoais</h2>
+            <h2>1. Resumo</h2>
             <p>
-                <strong>O aplicativo Arena Trampolim não coleta, armazena ou compartilha dados pessoais dos usuários.</strong> Não solicitamos cadastro, login, nome, e-mail, número de telefone, endereço, geolocalização precisa ou qualquer outra informação que possa identificar você pessoalmente.
+                <strong>Em todos os aparelhos:</strong>
             </p>
+            <ul>
+                <li>O jogo <strong>não pede cadastro, login, nome, e-mail, telefone, endereço, fotos, contatos nem localização por GPS</strong>, e não tem chat.</li>
+                <li>Os sensores de movimento do aparelho são usados só para controlar o jogo e <strong>nunca saem do aparelho</strong>.</li>
+                <li>Ao abrir, o jogo consulta um arquivo público para saber se existe uma versão mais nova. Essa consulta não envia nenhuma informação sobre a criança ou sobre o jogo. Veja a seção 6.</li>
+                <li><strong>Não há anúncios.</strong> Não usamos identificadores de publicidade, não rastreamos ninguém entre aplicativos ou sites de outras empresas e <strong>não vendemos dados</strong>.</li>
+            </ul>
+            <p>
+                <strong>No iPhone e no iPad:</strong>
+            </p>
+            <ul>
+                <li><strong>O jogo não coleta nem envia nenhum dado</strong> sobre a criança, o aparelho ou as partidas. Não há estatísticas de jogo nem relatórios de falhas. A única comunicação com a internet é a consulta de versão descrita acima.</li>
+            </ul>
+            <p>
+                <strong>No Android:</strong>
+            </p>
+            <ul>
+                <li>Estatísticas de jogo (por exemplo, qual brinquedo foi jogado e por quanto tempo) <strong>só são enviadas se um adulto autorizar</strong> na pergunta que aparece na primeira vez que o jogo é aberto. Se ninguém autorizar, essas estatísticas não são enviadas. Veja a seção 4.</li>
+                <!-- DIAGNOSTICS:BEGIN — remover este item se o Diagnostics da Unity for desligado no build Android -->
+                <li>Relatórios técnicos de falhas (quando o jogo trava ou fecha sozinho) são enviados à Unity automaticamente, <strong>sem depender dessa autorização</strong>. Veja a seção 5.</li>
+                <!-- DIAGNOSTICS:END -->
+            </ul>
 
             <h2>2. Permissões e sensores utilizados</h2>
             <p>
@@ -46,29 +67,92 @@
                 <strong>Os dados dos sensores não são gravados, armazenados, transmitidos ou enviados para nenhum servidor.</strong> Eles existem apenas em memória durante a partida e são descartados ao final do uso.
             </p>
 
-            <h2>3. Dados armazenados no dispositivo</h2>
+            <h2>3. Dados guardados no próprio aparelho</h2>
             <p>
-                O aplicativo pode armazenar localmente, no próprio dispositivo do usuário, algumas preferências do jogo (como pontuações, personagem selecionado e progresso nos minigames). Esses dados ficam exclusivamente no seu aparelho, não são enviados para nenhum servidor e podem ser apagados a qualquer momento desinstalando o aplicativo.
+                O jogo guarda no próprio aparelho algumas informações para funcionar: progresso, pontuações e estrelas, saldo de tickets, brinquedos desbloqueados, preferências (música, efeitos sonoros, idioma e tipo de controle), alguns contadores de jogo (como número de tentativas em cada brinquedo e tempo total de jogo) e, no Android, a resposta do adulto à pergunta sobre estatísticas. Essas informações ficam no aparelho e são apagadas quando o aplicativo é desinstalado.
+            </p>
+            <p>
+                No iPhone e no iPad, essas informações nunca saem do aparelho. No Android, parte desses contadores pode seguir junto com as estatísticas descritas na seção 4, mas <strong>somente se um adulto tiver autorizado</strong>.
             </p>
 
-            <h2>4. Serviços de terceiros</h2>
+            <h2>4. Estatísticas de jogo (Unity Analytics) — somente Android, e só com autorização de um adulto</h2>
             <p>
-                Atualmente, o aplicativo <strong>não integra serviços de terceiros</strong> como ferramentas de análise, anúncios, login social ou compartilhamento. Caso isso mude em versões futuras, esta política será atualizada e os usuários serão devidamente informados.
+                <strong>No iPhone e no iPad esta seção não se aplica:</strong> as estatísticas de jogo ficam desligadas, a pergunta para adultos não aparece e nada é enviado.
+            </p>
+            <p>
+                <strong>Como pedimos a autorização.</strong> Na primeira vez que o jogo é aberto, aparece uma tela "SÓ PARA ADULTOS" perguntando se podemos guardar estatísticas de jogo. Para autorizar, é preciso resolver uma conta de multiplicação, para que a resposta venha de um adulto e não da criança. Tocar em "AGORA NÃO" (ou errar a conta três vezes) conta como "não": nada é enviado e a pergunta não volta a aparecer. Enquanto não houver um "sim", o serviço de estatísticas nem sequer é iniciado e nenhuma estatística sai do aparelho.
+            </p>
+            <p>
+                <strong>O que é coletado, se houver autorização.</strong>
+            </p>
+            <ul>
+                <li><strong>Como o jogo é usado:</strong> início e fim de cada partida, qual brinquedo foi jogado, duração, pontuação, estrelas, porcentagem do percurso concluída, motivo de a partida terminar (fim do percurso, erro, saída para o menu, ou aplicativo minimizado ou fechado), tickets ganhos e saldo de tickets, brinquedos vistos, tocados e desbloqueados no menu, mudanças nas configurações (música, efeitos sonoros, idioma e tipo de controle) e a resposta ao aviso de nova versão. Também são registrados o início e o fim de cada sessão de jogo.</li>
+                <li><strong>Desempenho:</strong> a taxa média de quadros por segundo durante a partida.</li>
+                <li><strong>Informações técnicas do aparelho:</strong> modelo, sistema operacional e versão, processador, placa de vídeo, memória, tamanho e resolução da tela, nível da bateria, volume do som, idioma e região configurados no aparelho, e versão do jogo.</li>
+                <li><strong>Identificadores:</strong> um código aleatório criado para esta instalação do jogo e um identificador do aparelho gerado pelo motor do jogo a partir de um código fornecido pelo sistema Android. Não é o identificador de publicidade. Esses códigos permitem saber que duas partidas vieram do mesmo aparelho, mas não trazem nome, e-mail nem qualquer contato.</li>
+                <li><strong>Endereço IP</strong> da conexão com a internet, que a Unity pode usar para estimar o país ou a região aproximada.</li>
+            </ul>
+            <p>
+                <strong>Para que usamos.</strong> Somente para entender como o jogo é jogado e melhorá-lo: descobrir quais brinquedos são difíceis demais, onde as crianças desistem, se o jogo roda bem nos aparelhos mais simples e quais configurações são usadas.
+            </p>
+            <p>
+                <strong>O que não fazemos.</strong> Não exibimos anúncios. Não usamos as estatísticas para publicidade nem para criar perfis de publicidade. Não usamos o identificador de publicidade do aparelho. Não combinamos esses dados com dados de outras empresas para rastrear a criança em outros aplicativos ou sites. Não vendemos nem alugamos dados.
+            </p>
+            <p>
+                <strong>Quem processa os dados e onde ficam.</strong> As estatísticas são processadas pela Unity Technologies, empresa que fornece o motor do jogo, e que atua como operadora dos dados, ou seja, trata os dados em nosso nome e segundo nossas instruções. Segundo a Unity, os servidores do serviço ficam na Bélgica e os dados são armazenados na Holanda, com uma cópia nos Estados Unidos (Iowa). Por isso, os dados podem ser transferidos para fora do Brasil. Saiba mais na <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">política de privacidade da Unity para jogadores</a>.
+            </p>
+            <p>
+                <strong>Por quanto tempo.</strong> Segundo a Unity, os registros detalhados das partidas são guardados por 13 meses e depois apagados automaticamente. Totais e resumos (por exemplo, número de jogadores por dia) ficam guardados até que seja pedida a exclusão.
             </p>
 
-            <h2>5. Crianças</h2>
+            <!-- DIAGNOSTICS:BEGIN — se o Diagnostics da Unity for desligado também no build Android, trocar o conteúdo desta seção por "O jogo não envia relatórios de falhas." -->
+            <h2>5. Relatórios técnicos de falhas (Unity Diagnostics) — somente Android</h2>
             <p>
-                O aplicativo é destinado a todos os públicos. Como não coletamos nenhum dado pessoal, o aplicativo está em conformidade com legislações de proteção a crianças (como a COPPA e a LGPD, no contexto brasileiro).
+                <strong>No iPhone e no iPad esta seção não se aplica:</strong> o sistema de diagnóstico da Unity fica desligado e nenhum relatório de falha é enviado.
+            </p>
+            <p>
+                No Android, o motor do jogo, da Unity, tem um sistema próprio de diagnóstico que envia à Unity relatórios quando o jogo trava, fecha sozinho, para de responder ou encontra um erro, junto com informações técnicas sobre o aparelho e o sistema, marcações de início, pausa e fim de sessão e o código aleatório desta instalação do jogo. Esses relatórios não incluem nome, contato, conteúdo das partidas nem dados dos sensores.
+            </p>
+            <p>
+                Usamos esses relatórios apenas para encontrar e corrigir falhas. <strong>Esse envio não depende da autorização descrita na seção 4</strong>, porque a Unity não oferece uma forma de ligá-lo ou desligá-lo para cada jogador. Segundo a Unity, esses dados são guardados por 90 dias.
+            </p>
+            <!-- DIAGNOSTICS:END -->
+
+            <h2>6. Verificação de nova versão (iPhone, iPad e Android)</h2>
+            <p>
+                Cada vez que o jogo é aberto, em qualquer aparelho, ele baixa um pequeno arquivo público, hospedado no GitHub, que informa qual é a versão mais recente do jogo. Se houver uma versão mais nova, o jogo mostra um aviso opcional. Essa consulta <strong>não envia nenhuma informação sobre a criança, sobre o aparelho ou sobre as partidas</strong>. Como acontece com qualquer acesso à internet, o servidor do GitHub recebe o endereço IP e informações técnicas da conexão para poder entregar o arquivo. Nós não temos acesso a essas informações. Saiba mais na <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">declaração de privacidade do GitHub</a>.
             </p>
 
-            <h2>6. Alterações nesta política</h2>
+            <h2>7. Como mudar de ideia e pedir a exclusão dos dados</h2>
             <p>
-                Esta política poderá ser atualizada periodicamente. A data da última revisão estará sempre indicada no topo deste documento. Recomendamos que você verifique esta página de tempos em tempos.
+                <strong>No iPhone e no iPad</strong> não há nada a desligar nem a apagar, porque o jogo não envia dados. O restante desta seção vale para o Android.
+            </p>
+            <p>
+                <strong>Parar o envio (Android).</strong> Nesta versão, a resposta à pergunta sobre estatísticas não pode ser alterada pelas Configurações do jogo. Para parar o envio de estatísticas, desinstale o aplicativo: o envio para imediatamente. Se o jogo for instalado de novo, a pergunta aparece outra vez e você pode responder "AGORA NÃO".
+            </p>
+            <p>
+                <strong>Apagar o que já foi enviado (Android).</strong> Desinstalar o aplicativo não apaga as estatísticas que já foram enviadas. Para pedir a exclusão, escreva para <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>. Como as estatísticas não trazem nome nem contato, talvez precisemos da sua ajuda para identificar o aparelho. Se não for possível identificá-lo, explicaremos quais alternativas existem. Segundo a Unity, um pedido de exclusão é concluído em até 30 dias.
+            </p>
+            <p>
+                <strong>Seus direitos.</strong> Pela Lei Geral de Proteção de Dados (LGPD), você pode, entre outros direitos, confirmar se tratamos dados da criança, ter acesso a eles, corrigi-los, pedir a exclusão e revogar o consentimento. Para isso, use o mesmo e-mail.
             </p>
 
-            <h2>7. Contato</h2>
+            <h2>8. Crianças e consentimento dos pais</h2>
             <p>
-                Em caso de dúvidas, sugestões ou solicitações relacionadas a esta Política de Privacidade ou ao aplicativo, entre em contato através do e-mail: <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>.
+                O Arena Trampolim é um jogo feito para crianças. Leis de proteção de crianças, como a COPPA, nos Estados Unidos, e o artigo 14 da LGPD, no Brasil, exigem que o tratamento de dados de crianças tenha o consentimento específico e em destaque de pelo menos um dos pais ou responsável. Por isso, no iPhone e no iPad o jogo não coleta dados, e no Android as estatísticas de jogo só são enviadas depois que um adulto autoriza na tela "SÓ PARA ADULTOS".
+            </p>
+            <p>
+                No Android, a conta de multiplicação serve para que a pergunta seja respondida por um adulto e não pela criança. Ela não verifica quem é o adulto. Se você acha que uma criança autorizou o envio sem um adulto, ou se tiver qualquer dúvida, fale com a gente pelo e-mail abaixo.
+            </p>
+
+            <h2>9. Alterações nesta política</h2>
+            <p>
+                Esta política poderá ser atualizada quando o jogo mudar. A data da última revisão estará sempre indicada no topo deste documento. Recomendamos que você verifique esta página de tempos em tempos.
+            </p>
+
+            <h2>10. Contato</h2>
+            <p>
+                Em caso de dúvidas, pedidos ou reclamações relacionados a esta Política de Privacidade ou ao aplicativo, entre em contato pelo e-mail: <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>.
             </p>
         </article>
     </main>

@@ -23,16 +23,37 @@
     <main>
         <article class="privacy-content">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last updated: May 21, 2026</p>
+            <p class="last-updated">Last updated: November 8, 2026</p>
 
             <p>
-                This Privacy Policy describes how the <strong>Arena Trampolim</strong> mobile app ("the app", "we") handles user information ("you") when using our services. By installing and using the app, you agree to the terms described in this document.
+                This Privacy Policy explains, in plain language, what information the <strong>Arena Trampolim</strong> mobile app ("the app", "the game", "we") uses, what stays only on the device, what is sent off it, and what choices you, as a parent or guardian, have about it.
             </p>
 
-            <h2>1. Collection of personal data</h2>
+            <h2>1. Summary</h2>
             <p>
-                <strong>The Arena Trampolim app does not collect, store, or share any personal data from users.</strong> We do not request registration, login, name, email, phone number, address, precise location, or any other information that could personally identify you.
+                <strong>On all devices:</strong>
             </p>
+            <ul>
+                <li>The game <strong>does not ask for registration, login, name, email, phone number, address, photos, contacts or GPS location</strong>, and has no chat.</li>
+                <li>The device's motion sensors are used only to control the game and <strong>never leave the device</strong>.</li>
+                <li>When it opens, the game checks a public file to see whether a newer version exists. This check sends no information about the child or about gameplay. See section 6.</li>
+                <li><strong>There are no ads.</strong> We do not use advertising identifiers, we do not track anyone across other companies' apps or websites, and <strong>we do not sell data</strong>.</li>
+            </ul>
+            <p>
+                <strong>On iPhone and iPad:</strong>
+            </p>
+            <ul>
+                <li><strong>The game does not collect or send any data</strong> about the child, the device or gameplay. There are no play statistics and no crash reports. The only internet communication is the version check described above.</li>
+            </ul>
+            <p>
+                <strong>On Android:</strong>
+            </p>
+            <ul>
+                <li>Play statistics (for example, which ride was played and for how long) <strong>are only sent if an adult allows it</strong> in the question shown the first time the game is opened. If no one allows it, these statistics are not sent. See section 4.</li>
+                <!-- DIAGNOSTICS:BEGIN — remove this item if Unity Diagnostics is turned off in the Android build -->
+                <li>Technical crash reports (when the game freezes or closes by itself) are sent to Unity automatically, <strong>regardless of that permission</strong>. See section 5.</li>
+                <!-- DIAGNOSTICS:END -->
+            </ul>
 
             <h2>2. Permissions and sensors used</h2>
             <p>
@@ -46,29 +67,92 @@
                 <strong>Sensor data is not recorded, stored, transmitted, or sent to any server.</strong> It exists only in memory during gameplay and is discarded at the end of use.
             </p>
 
-            <h2>3. Data stored on the device</h2>
+            <h2>3. Data kept on the device</h2>
             <p>
-                The app may store, locally on the user's own device, some game preferences (such as scores, selected character, and minigame progress). This data stays exclusively on your device, is not sent to any server, and can be deleted at any time by uninstalling the app.
+                The game keeps some information on the device itself so it can work: progress, scores and stars, ticket balance, unlocked rides, preferences (music, sound effects, language and control type), a few gameplay counters (such as the number of attempts on each ride and total play time) and, on Android, the adult's answer to the statistics question. This information stays on the device and is deleted when the app is uninstalled.
+            </p>
+            <p>
+                On iPhone and iPad, this information never leaves the device. On Android, some of these counters may be sent along with the statistics described in section 4, but <strong>only if an adult has allowed it</strong>.
             </p>
 
-            <h2>4. Third-party services</h2>
+            <h2>4. Play statistics (Unity Analytics) — Android only, and only with an adult's permission</h2>
             <p>
-                Currently, the app <strong>does not integrate with third-party services</strong> such as analytics tools, advertising, social login, or sharing. If this changes in future versions, this policy will be updated and users will be properly informed.
+                <strong>This section does not apply to iPhone and iPad:</strong> play statistics are turned off, the grown-ups question does not appear, and nothing is sent.
+            </p>
+            <p>
+                <strong>How we ask for permission.</strong> The first time the game is opened, a "GROWN-UPS ONLY" screen asks whether we may keep play statistics. To allow it, a multiplication problem must be solved, so that the answer comes from an adult and not from the child. Tapping "NOT NOW" (or getting the problem wrong three times) counts as "no": nothing is sent and the question is not shown again. Until there is a "yes", the statistics service is not even started and no statistics leave the device.
+            </p>
+            <p>
+                <strong>What is collected, if permission is given.</strong>
+            </p>
+            <ul>
+                <li><strong>How the game is used:</strong> the start and end of each run, which ride was played, duration, score, stars, percentage of the course completed, why the run ended (course finished, mistake, back to menu, or app minimized or closed), tickets earned and ticket balance, rides viewed, tapped and unlocked in the menu, changes to settings (music, sound effects, language and control type), and the answer to the new-version notice. The start and end of each play session are also recorded.</li>
+                <li><strong>Performance:</strong> the average frame rate during the run.</li>
+                <li><strong>Technical device information:</strong> model, operating system and version, processor, graphics chip, memory, screen size and resolution, battery level, sound volume, language and region set on the device, and game version.</li>
+                <li><strong>Identifiers:</strong> a random code created for this installation of the game, and a device identifier generated by the game engine from a code provided by the Android system. It is not the advertising identifier. These codes make it possible to tell that two runs came from the same device, but they carry no name, email or any contact details.</li>
+                <li><strong>IP address</strong> of the internet connection, which Unity may use to estimate the approximate country or region.</li>
+            </ul>
+            <p>
+                <strong>What we use it for.</strong> Only to understand how the game is played and to improve it: finding out which rides are too hard, where children give up, whether the game runs well on lower-end devices, and which settings are used.
+            </p>
+            <p>
+                <strong>What we do not do.</strong> We do not show ads. We do not use the statistics for advertising or to build advertising profiles. We do not use the device's advertising identifier. We do not combine this data with other companies' data to track the child across other apps or websites. We do not sell or rent data.
+            </p>
+            <p>
+                <strong>Who processes the data and where it is kept.</strong> The statistics are processed by Unity Technologies, the company that provides the game engine, acting as a data processor, meaning it handles the data on our behalf and following our instructions. According to Unity, the service's servers are in Belgium and the data is stored in the Netherlands, with a copy in the United States (Iowa). As a result, the data may be transferred outside Brazil. Learn more in <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">Unity's privacy policy for game players</a>.
+            </p>
+            <p>
+                <strong>How long it is kept.</strong> According to Unity, detailed run records are kept for 13 months and then deleted automatically. Totals and summaries (for example, number of players per day) are kept until deletion is requested.
             </p>
 
-            <h2>5. Children</h2>
+            <!-- DIAGNOSTICS:BEGIN — if Unity Diagnostics is also turned off in the Android build, replace this section's content with "The game does not send crash reports." -->
+            <h2>5. Technical crash reports (Unity Diagnostics) — Android only</h2>
             <p>
-                The app is intended for all audiences. Since we do not collect any personal data, the app complies with children protection laws (such as COPPA and GDPR-K).
+                <strong>This section does not apply to iPhone and iPad:</strong> Unity's diagnostics system is turned off and no crash reports are sent.
+            </p>
+            <p>
+                On Android, the game engine, made by Unity, has its own diagnostics system that sends Unity a report when the game freezes, closes by itself, stops responding or hits an error, together with technical information about the device and system, markers for when a session starts, pauses and ends, and the random code for this installation of the game. These reports do not include names, contact details, gameplay content or sensor data.
+            </p>
+            <p>
+                We use these reports only to find and fix bugs. <strong>This sending does not depend on the permission described in section 4</strong>, because Unity does not offer a way to turn it on or off for each player. According to Unity, this data is kept for 90 days.
+            </p>
+            <!-- DIAGNOSTICS:END -->
+
+            <h2>6. New-version check (iPhone, iPad and Android)</h2>
+            <p>
+                Each time the game is opened, on any device, it downloads a small public file, hosted on GitHub, that states the latest version of the game. If a newer version exists, the game shows an optional notice. This check <strong>sends no information about the child, the device or gameplay</strong>. As with any internet access, GitHub's server receives the IP address and technical connection information in order to deliver the file. We do not have access to that information. Learn more in <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>.
             </p>
 
-            <h2>6. Changes to this policy</h2>
+            <h2>7. How to change your mind and ask for data deletion</h2>
             <p>
-                This policy may be updated periodically. The date of the last revision will always be shown at the top of this document. We recommend that you check this page from time to time.
+                <strong>On iPhone and iPad</strong> there is nothing to turn off or delete, because the game sends no data. The rest of this section applies to Android.
+            </p>
+            <p>
+                <strong>Stopping the sending (Android).</strong> In this version, the answer to the statistics question cannot be changed from the game's Settings. To stop statistics from being sent, uninstall the app: sending stops immediately. If the game is installed again, the question appears again and you can answer "NOT NOW".
+            </p>
+            <p>
+                <strong>Deleting what has already been sent (Android).</strong> Uninstalling the app does not delete statistics that have already been sent. To request deletion, write to <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>. Because the statistics carry no name or contact details, we may need your help to identify the device. If it cannot be identified, we will explain which alternatives exist. According to Unity, a deletion request is completed within 30 days.
+            </p>
+            <p>
+                <strong>Your rights.</strong> Under Brazil's General Data Protection Law (LGPD), you may, among other rights, confirm whether we process the child's data, access it, correct it, request its deletion and withdraw consent. To do so, use the same email address.
             </p>
 
-            <h2>7. Contact</h2>
+            <h2>8. Children and parental consent</h2>
             <p>
-                For questions, suggestions, or requests related to this Privacy Policy or the app, please contact us via email: <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>.
+                Arena Trampolim is a game made for children. Child-protection laws, such as COPPA in the United States and Article 14 of the LGPD in Brazil, require that processing children's data have specific and prominent consent from at least one parent or guardian. That is why the game collects no data on iPhone and iPad, and on Android play statistics are only sent after an adult allows it on the "GROWN-UPS ONLY" screen.
+            </p>
+            <p>
+                On Android, the multiplication problem is there so that the question is answered by an adult and not by the child. It does not verify who the adult is. If you think a child allowed sending without an adult, or if you have any questions, contact us at the email address below.
+            </p>
+
+            <h2>9. Changes to this policy</h2>
+            <p>
+                This policy may be updated when the game changes. The date of the last revision will always be shown at the top of this document. We recommend that you check this page from time to time.
+            </p>
+
+            <h2>10. Contact</h2>
+            <p>
+                For questions, requests or complaints related to this Privacy Policy or the app, please contact us by email: <a href="mailto:arenatrampolim.contato@gmail.com">arenatrampolim.contato@gmail.com</a>.
             </p>
         </article>
     </main>
